@@ -153,7 +153,6 @@ namespace ClassLibraryNetCatch
             return result;
         }
 
-
         private CookieCollection CookieString2Collection(string cookieString)
         {
             CookieCollection cc = new CookieCollection();
@@ -472,7 +471,6 @@ namespace ClassLibraryNetCatch
         {
             return UrlEncode(item, Encoding.GetEncoding("gb2312"));
         }
-
 
         public static string UrlEncodeByUTF8(string item)
         {
